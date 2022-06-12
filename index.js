@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { debounce } from "lodash.debounce";
+import debounce from "lodash.debounce";
 
 const getWindowDimensions = () => {
   const { innerWidth: width, innerHeight: height } = window;

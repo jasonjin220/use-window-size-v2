@@ -1,6 +1,6 @@
 {
   "name": "@jasonjin220/use-window-size",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "Custom hook to obtain the current window size in React apps.",
   "main": "index.js",
   "scripts": {
@@ -18,6 +18,6 @@
     "lodash.debounce": "^4.0.8"
   },
   "peerDependencies": {
-    "react": "^18.1.0"
+    "react": "^16.8.0"
   }
 }
