@@ -1,0 +1,27 @@
+body {
+  height: 100vh;
+  margin: 0;
+  display: grid;
+  place-items: center;
+}
+
+.box {
+  display: block;
+  width: 300px;
+  padding: 1.25rem;
+  color: #4a4a4a;
+  font-family: sans-serif;
+  box-shadow: 0 2px 3px rgb(10 10 10 / 10%), 0 0 0 1px rgb(10 10 10 / 10%);
+  border-radius: 6px;
+  background-color: #f7df1e;
+}
+
+.box h1 {
+  font-weight: 900;
+  font-size: 20px;
+  margin: "0 0 1rem 0";
+}
+
+.box p {
+  line-height: 1.5;
+}
