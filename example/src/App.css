@@ -1,7 +1,7 @@
 body {
+  display: grid;
   height: 100vh;
   margin: 0;
-  display: grid;
   place-items: center;
 }
 
@@ -11,9 +11,9 @@ body {
   padding: 1.25rem;
   color: #4a4a4a;
   font-family: sans-serif;
-  box-shadow: 0 2px 3px rgb(10 10 10 / 10%), 0 0 0 1px rgb(10 10 10 / 10%);
   border-radius: 6px;
   background-color: #f7df1e;
+  box-shadow: 0 2px 3px rgb(10 10 10 / 10%), 0 0 0 1px rgb(10 10 10 / 10%);
 }
 
 .box h1 {
