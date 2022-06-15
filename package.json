@@ -1,6 +1,6 @@
 {
   "name": "@jasonjin220/use-window-size",
-  "version": "1.0.8",
+  "version": "1.0.11",
   "description": "Custom hook to obtain the current window size in React apps.",
   "main": "index.js",
   "scripts": {
@@ -8,12 +8,16 @@
   },
   "keywords": [
     "react",
+    "reactjs",
     "hook",
-    "useWindowSize"
+    "react-hook",
+    "window",
+    "size",
+    "window-size"
   ],
   "author": "Jason Jin <jasonjin220@gmail.com> (https://github.com/jasonjin220)",
   "repository": "https://github.com/jasonjin220/use-window-size",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "lodash.debounce": "^4.0.8"
   },

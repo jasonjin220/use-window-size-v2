@@ -1,7 +1,9 @@
 # useWindowSize()
 
 [![Node version](https://img.shields.io/npm/v/@jasonjin220/use-window-size.svg?style=flat)](https://www.npmjs.com/package/@jasonjin220/use-window-size)
-[![Downloads](https://img.shields.io/npm/dw/@jasonjin220/use-window-size)](https://www.npmjs.com/package/@jasonjin220/use-window-size)
+[![NPM total downloads](https://img.shields.io/npm/dt/@jasonjin220/use-window-size.svg?style=flat)](https://npmcharts.com/compare/@jasonjin220/use-window-size?minimal=true)
+[![npm bundle size (minified)](https://img.shields.io/bundlephobia/min/@jasonjin220/use-window-size.svg)](https://www.npmjs.com/package/@jasonjin220/use-window-size)
+![NPM license](https://img.shields.io/npm/l/@jasonjin220/use-window-size.svg?style=flat)
 
 React hook to obtain the current window size in React apps.
 
