@@ -1,4 +1,4 @@
-import useWindowSize from "@jasonjin220/use-window-size";
+import useWindowSize from "@hooks/use-window-size";
 import "./App.css";
 
 export default function App() {
