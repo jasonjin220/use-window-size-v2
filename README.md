@@ -1,9 +1,9 @@
 # useWindowSize()
 
-[![Node version](https://img.shields.io/npm/v/@jasonjin220/use-window-size.svg?style=flat)](https://www.npmjs.com/package/@jasonjin220/use-window-size)
-[![NPM total downloads](https://img.shields.io/npm/dt/@jasonjin220/use-window-size.svg?style=flat)](https://npmcharts.com/compare/@jasonjin220/use-window-size?minimal=true)
-[![npm bundle size (minified)](https://img.shields.io/bundlephobia/min/@jasonjin220/use-window-size.svg)](https://www.npmjs.com/package/@jasonjin220/use-window-size)
-![NPM license](https://img.shields.io/npm/l/@jasonjin220/use-window-size.svg?style=flat)
+[![Node version](https://img.shields.io/npm/v/use-window-size-v2.svg?style=flat)](https://www.npmjs.com/package/use-window-size-v2)
+[![NPM total downloads](https://img.shields.io/npm/dt/use-window-size-v2.svg?style=flat)](https://npmcharts.com/compare/use-window-size-v2?minimal=true)
+[![npm bundle size (minified)](https://img.shields.io/bundlephobia/min/use-window-size-v2.svg)](https://www.npmjs.com/package/use-window-size-v2)
+![NPM license](https://img.shields.io/npm/l/use-window-size-v2.svg?style=flat)
 
 React hook to obtain the current window size in React apps.
 
@@ -16,7 +16,7 @@ const { height, width } = useWindowSize();
 ## Installation
 
 ```sh
-$ npm install @jasonjin220/use-window-size
+$ npm install use-window-size-v2
 ```
 
 ## Usage
@@ -41,12 +41,12 @@ This hook returns the current height of the window. It is debounced, meaning it 
 [![Edit react-hook-usewindowsize](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/react-hook-usewindowsize-5ypkqr)
 
 ```jsx
-import useWindowSize from "@jasonjin220/use-window-size";
+import useWindowSize from "use-window-size-v2";
 
 const App = () => {
   const { width, height } = useWindowSize(100); // wait 100ms for the resize events
 
-  return <div>{`Window Dimensions: height - ${height}, width - ${width}`}</div>;
+  return <div>{`height: ${height}, width: ${width}`}</div>;
 };
 
 export default App;
