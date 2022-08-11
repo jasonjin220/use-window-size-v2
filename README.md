@@ -38,7 +38,7 @@ This hook returns the current height of the window. It is debounced, meaning it 
 
 ## Example
 
-[![Edit react-hook-usewindowsize](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/react-hook-usewindowsize-5ypkqr)
+[![Edit react-hook-usewindowsize](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/use-window-size-v2-w85fs5)
 
 ```jsx
 import useWindowSize from "use-window-size-v2";
