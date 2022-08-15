@@ -16,7 +16,13 @@ const { height, width } = useWindowSize();
 ## Installation
 
 ```sh
-$ npm install use-window-size-v2
+npm install use-window-size-v2
+```
+
+or
+
+```sh
+yarn add use-window-size-v2
 ```
 
 ## Usage
