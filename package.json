@@ -1,15 +1,22 @@
 {
   "name": "use-window-size-v2",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "description": "Custom hook to obtain the current window size in React apps.",
-  "main": "src/index.js",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
   "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "files": [
+    "build"
+  ],
   "keywords": [
     "react",
     "hook",
     "react hook",
+    "typescript",
     "window size",
     "window-size",
     "usewindowsize",
@@ -20,5 +27,9 @@
   "license": "MIT",
   "peerDependencies": {
     "react": ">= 16.8.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.8",
+    "typescript": "^5.1.3"
   }
 }
