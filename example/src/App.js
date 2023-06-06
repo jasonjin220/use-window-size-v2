@@ -7,11 +7,8 @@ export default function App() {
   return (
     <div className="box">
       <h1>useWindowSize() Hook</h1>
-      <p>
-        width: {width}
-        <br />
-        height: {height}
-      </p>
+      <p>Window Width: {width}px</p>
+      <p>Window Height: {height}px</p>
     </div>
   );
 }

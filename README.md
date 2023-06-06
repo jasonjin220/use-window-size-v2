@@ -54,9 +54,8 @@ const App = () => {
 
   return (
     <div>
-      width: {width}px
-      <br />
-      height: {height}px
+      <p>Window Width: {width}px</p>
+      <p>Window Height: {height}px</p>
     </div>
   );
 };
