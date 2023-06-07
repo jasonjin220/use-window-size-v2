@@ -1,7 +1,7 @@
 import useWindowSize from "use-window-size-v2";
 import "./App.css";
 
-export default function App() {
+function App() {
   const { width, height } = useWindowSize();
 
   return (
@@ -12,3 +12,5 @@ export default function App() {
     </div>
   );
 }
+
+export default App;
