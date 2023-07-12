@@ -2,7 +2,7 @@
 
 [![Node version](https://img.shields.io/npm/v/use-window-size-v2.svg?style=flat)](https://www.npmjs.com/package/use-window-size-v2)
 [![NPM total downloads](https://img.shields.io/npm/dt/use-window-size-v2.svg?style=flat)](https://npmcharts.com/compare/use-window-size-v2?minimal=true)
-[![npm bundle size (minified)](https://img.shields.io/bundlephobia/minzip/use-window-size-v2@2.2.1.svg)](https://bundlephobia.com/result?p=use-window-size-v2)
+[![npm bundle size (minified)](https://img.shields.io/bundlephobia/minzip/use-window-size-v2@2.2.4.svg)](https://bundlephobia.com/result?p=use-window-size-v2)
 ![NPM license](https://img.shields.io/npm/l/use-window-size-v2.svg?style=flat)
 
 React hook to obtain the current window size in React apps.
@@ -27,7 +27,7 @@ yarn add use-window-size-v2
 
 ## Usage
 
-This hook returns the current height of the window. It is debounced, meaning it will wait `delay` milliseconds (0ms by default) for the resize events to stop firing before it actually updates its state with the new width and height.
+This hook returns the current height of the window. It is **debounced**, meaning it will wait `delay` milliseconds (0ms by default) for the resize events to stop firing before it actually updates its state with the new width and height.
 
 ### Parameter (optional)
 
