@@ -27,7 +27,7 @@ yarn add use-window-size-v2
 
 ## Usage
 
-This hook returns the current height of the window. It is **debounced**, meaning it will wait `delay` milliseconds (0ms by default) for the resize events to stop firing before it actually updates its state with the new width and height.
+This hook returns the current width and height of the window. It is **debounced**, meaning it will wait `delay` milliseconds (0ms by default) for the resize events to stop firing before it actually updates its state with the new width and height.
 
 ### Parameter (optional)
 
